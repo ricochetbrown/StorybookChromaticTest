@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'storybook-button',
-  template: ` <button
+  template: `Hello <button
     type="button"
     (click)="onClick.emit($event)"
     [ngClass]="classes"
